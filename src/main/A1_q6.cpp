@@ -18,6 +18,7 @@ namespace aim::q6 {
 struct Target { int id; int x; int y; int hp; bool visible; };
 
 // BEGIN IMPLEMENTATION
+// aim-cpp-cw
 int select_target(const std::vector<Target>& targets, int max_range) {
     if (max_range < 0 || targets.empty()) return -1;
     

@@ -11,6 +11,7 @@ struct LabelEdit {
 };
 
 // BEGIN IMPLEMENTATION
+// aim-cpp-cw
 std::string edit_labels(std::string labels, const std::vector<LabelEdit>& edits) {
     std::vector<std::string> vec;
     

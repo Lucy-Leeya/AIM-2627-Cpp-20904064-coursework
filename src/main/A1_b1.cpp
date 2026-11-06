@@ -18,6 +18,7 @@ namespace aim::b1 {
 
 
 // BEGIN IMPLEMENTATION
+// aim-cpp-cw
 bool parse_i32(const std::string& text, int& output) {
     if (text.empty()) return false;
     int i = 0;
